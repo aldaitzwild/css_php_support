@@ -1,0 +1,19 @@
+#articles {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#articles p {
+    width: 40ch;
+    text-align: justify;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column p {
+    width: unset !important;
+}
